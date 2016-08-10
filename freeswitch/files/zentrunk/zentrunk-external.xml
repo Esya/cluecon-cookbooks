@@ -1,0 +1,8 @@
+<include>
+  <gateway name="Plivo-outbound">
+    <param name="username" value="tfoureur"/>
+    <param name="password" value="hellocluecon" />
+    <param name="proxy" value="11902088611322391.zt.plivo.com"/>
+    <param name="register" value="false"/>
+  </gateway>
+</include>

@@ -1,0 +1,6 @@
+<extension name="plivo">
+  <condition field="destination_number" expression="^(\d{11})$">
+  <action application="set" data="effective_caller_id_number=${outbound_caller_id_number}"/>
+  <action application="bridge" data="sofia/gateway/Plivo-outbound/$1"/>
+  </condition>
+</extension>
